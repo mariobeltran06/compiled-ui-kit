@@ -1,0 +1,24 @@
+{
+  "name": "@mariobeltran06/ui-kit",
+  "version": "16.0.1",
+  "peerDependencies": {
+    "@angular/common": "^20.1.0",
+    "@angular/core": "^20.1.0",
+    "drstyles": "github:nayosx/drstyles#development"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2022/mariobeltran06-ui-kit.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./fesm2022/mariobeltran06-ui-kit.mjs"
+    }
+  }
+}
